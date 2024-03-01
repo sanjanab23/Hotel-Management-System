@@ -3,6 +3,8 @@
 Description:
 This project is a hotel management system designed to handle various tasks related to hotel operations, including room bookings, customer management, billing, and more. It provides a user-friendly interface for both hotel staff and customers to interact with.
 
+Database Used: MySQL
+
 Features:
 
 Customer Management: Register customers, manage their details, and keep track of their bookings.
@@ -19,4 +21,4 @@ Feedback System: Collect customer feedback and ratings to improve service qualit
 
 Reporting: Generate reports on room occupancy, revenue, and other key metrics.
 
-Database used: MySQL
+
