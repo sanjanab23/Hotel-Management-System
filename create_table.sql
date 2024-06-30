@@ -5,23 +5,22 @@ USE hotel_management;
 CREATE TABLE Register (
    Customer_ID INT PRIMARY KEY,
    Customer_Name VARCHAR(30),
-   Customer_PhoneNo INT,
+   Customer_PhoneNo BIGINT,
    Customer_Email VARCHAR(30),
    Customer_Address VARCHAR(50)
 );
 
-ALTER TABLE Register
-MODIFY COLUMN Customer_PhoneNo BIGINT;
+
 
 
 CREATE TABLE Rooms (
     room_number INT PRIMARY KEY,
     room_type VARCHAR(50),
     rate DECIMAL(10, 2),
-    availability BOOLEAN
+    availability BOOLEAN,
+    No_of_people int
 );
-ALTER TABLE Rooms
-ADD COLUMN No_of_people int;
+
 
 
 CREATE TABLE ThirdPartyBookings (
